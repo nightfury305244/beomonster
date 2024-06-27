@@ -2176,3 +2176,30 @@ body {
 .__variable_d56851 {
   --font-display: "__displayFont_d56851", "__displayFont_Fallback_d56851", system-ui, Helvetica Neue, Helvetica, Arial
 }
+
+.rfm-marquee-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.rfm-marquee {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee 35.61875s linear infinite;
+}
+
+.rfm-child {
+  display: inline-block;
+  font-family: YACgEblklxo-0;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
