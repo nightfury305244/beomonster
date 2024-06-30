@@ -559,7 +559,7 @@ video {
 }
 
 .h-12 {
-  height: 3rem
+  height: 50px
 }
 
 .h-\[100px\] {
@@ -647,7 +647,7 @@ video {
 }
 
 .w-12 {
-  width: 3rem
+  width: 50px
 }
 
 .w-\[100px\] {
@@ -1668,6 +1668,12 @@ body {
   }
 }
 
+@media (max-width:768px) {
+  button {
+    display: none;
+  }
+}
+
 @media (min-width:768px) {
   .md\:absolute {
     position: absolute
@@ -1750,7 +1756,7 @@ body {
   }
 
   .md\:h-14 {
-    height: 3.5rem
+    height: 50px
   }
 
   .md\:h-20 {
@@ -1814,7 +1820,7 @@ body {
   }
 
   .md\:w-14 {
-    width: 3.5rem
+    width: 50px
   }
 
   .md\:w-20 {
