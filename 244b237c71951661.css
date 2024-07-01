@@ -1557,6 +1557,10 @@ body {
   opacity: .2
 }
 
+.sternomic_text {
+  margin-top: 50px;
+}
+
 @keyframes blinkingBackground {
   0% {
     background-color: #10c018
@@ -2064,10 +2068,16 @@ body {
   }
 }
 
-@media (max-width:1024px) {
+@media (max-width:1200px) {
   #tdmzB3APd4LNdOdP {
     display: none;
   }
+
+  .sternomic_text {
+    margin-top: 20px;
+    margin-bottom: 50px
+  }
+  
 }
 
 @media (min-width:1024px) {
